@@ -27,7 +27,7 @@ body{
 }
 
 nav {
-   background:#ffffff;
+   background:white;
    margin:0;
    height:auto;
    /* border-bottom: 2px solid #cccccc; */
@@ -37,6 +37,7 @@ nav div {
     margin: 0 auto;
     max-width: 980px;
     color: black;
+    background: white;
 
 }
 a{
@@ -278,6 +279,8 @@ Make the position of the header static (the default positioning) when the screen
  @media screen and (max-width:640px){
     #brand{
         width:100%;
+        background:rgb(252, 252, 252);
+
     }
     #navButtons{
         width:100%;
@@ -286,19 +289,30 @@ Make the position of the header static (the default positioning) when the screen
         width:100%;
         margin:5px;
     }
+    div#wrapper {
+        background:rgb(252, 252, 252);
+        padding-bottom: 0;
+
+    }
+    h1 {
+        background:rgb(252, 252, 252);
+
+    }
     h3 {
         width:33.33%;
-        background:lightgray;
+        background:rgb(252, 252, 252);
         padding:10px 0;
         margin:0;
         border:none
     }
-    #wrapper {
+    /* #wrapper {
         width: 100%;
         padding:16px 16px;
-    }
+    } */
     .maxWidthNav {
         width:100%;
+        background:rgb(252, 252, 252);
+
         }
 
     .content {
