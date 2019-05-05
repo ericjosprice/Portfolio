@@ -22,9 +22,9 @@
                             <h1>
                                 <a href="index.html">Eric Price</a>
                                 <a href="https://github.com/ericjosprice" target="_blank"><i
-                                        class="fab fa-github fa-lg"></i></a>
+                                        class="fab fa-github fa-md"></i></a>
                                 <a href="https://www.linkedin.com/in/ericjprice" target="_blank"><i
-                                        class="fab fa-linkedin fa-lg"></i></i></a>
+                                        class="fab fa-linkedin fa-md"></i></i></a>
                             </h1>
                         </div>
                     </div>
@@ -43,22 +43,24 @@
                 </div>
             </nav> <br>
             <div id="container">
-                <section>
+                <section id="contact">
                     <!-- <h2>Contact</h2> -->
-                    <p>email: ericjosprice@gmail.com</p>
-                    <p>Phone Number: 512-438-9119</p>
-                    <hr>
+                    <div id="personal">
+                        <a href="tel:1-512-438-9119"><p>(512) 438-9119</p></a>
+                        <a href="mailto:ericjosprice@gmail.com"><p>ericjosprice@gmail.com</p></a>
+                        
+                    </div>
                     <label for="name">Name</label>
                     <br>
-                    <input type="text" placeholder="John Smith">
+                    <input id="name" type="text" placeholder="John Smith">
                     <br>
-                    <label for="email">Email</label>
+                    <label  for="email">Email</label>
                     <br>
-                    <input type="email" placeholder="example@gmail.com">
+                    <input id="email" type="email" placeholder="example@gmail.com">
                     <br>
                     <label for="message">Message</label>
                     <br>
-                    <textarea name="message" rows="10" cols="30"></textarea>
+                    <textarea id="texarea" name="message" rows="10" cols="30"></textarea>
                     <br>
                     <button>submit</button>
                 </section>

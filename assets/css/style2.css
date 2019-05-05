@@ -100,6 +100,30 @@ h3 {
 section {
     margin:10px;
 }
+#contact {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+    padding: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#personal{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#name, #email, #textarea {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    background: none;
+    line-height: 1;
+    padding: 8px;
+    border: 1px solid rgba(0,0,0,.12);
+    margin-top: 12px;
+}
+
 
 h2 {
     color:black;
@@ -204,7 +228,7 @@ Make the position of the header static (the default positioning) when the screen
 
     h3 {
         width:30%;
-        margin:22px auto;
+        margin:30px auto;
         height:100%;
 
     }
@@ -214,6 +238,8 @@ Make the position of the header static (the default positioning) when the screen
     #dexPic {
         width:35%;
     }
+
+    
 }
 @media screen and (max-width:768px){
     nav{
