@@ -89,6 +89,9 @@
     #resume {
         margin:10px auto
     }
+    #skills {
+        margin-bottom: 24px;
+    }
 }
 
 @media screen and (min-width: 479px) {
