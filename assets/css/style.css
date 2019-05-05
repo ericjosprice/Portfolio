@@ -1,0 +1,402 @@
+@media screen and (min-width: 0px) {
+    body {
+        text-align: center;
+    }
+
+    h3 {
+        float: left;
+        width: 33%;
+        height: 16px;
+        margin-top: 24px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 16px;
+        font-size: 12.58px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: #2D3137;
+    }
+    a{
+        color: #2D3137;
+
+    }
+
+    a::active {
+        text-decoration: underline;
+        color: black;
+
+    }
+
+    .image-wrapper {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    img {
+
+        max-width: 200px;
+        max-height: 200px;
+        margin: 64px;
+        background-size: cover;
+        top: 127.97px;
+        border-radius: 50%;
+        content: url("../images/maskprofilepictureround.png")
+            /* background-image: url(../images/maskprofilepictureround.png); */
+
+    }
+
+    #hi {
+        height: 30px;
+        font-family: Georgia;
+        line-height: 30px;
+        font-size: 26.34px;
+        text-align: center;
+        color: #2D3137;
+    }
+
+    .brand {
+        margin: 16px 0 16px 0;
+        font-family: Lato;
+        line-height: 28px;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: rgba(45, 49, 55, 0.54);
+    }
+
+    #my-work {
+        margin: 25px;
+        padding: 8px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 16px;
+        font-size: 14.21px;
+        text-align: center;
+        letter-spacing: 1.25px;
+        color: #FFFFFF;
+        border-radius: 4px;
+        background: #2D3137;
+    }
+
+    i {
+        display: none;
+        margin-top: 36px;
+        width: 18%;
+    }
+    #resume {
+        margin:10px auto
+    }
+}
+
+@media screen and (min-width: 479px) {
+    body {
+        text-align: center;
+    }
+
+    h3 {
+        float: left;
+        width: 33%;
+        height: 16px;
+        top: 36px;
+        margin-top: 24px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 16px;
+        font-size: 12.58px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: #2D3137;
+    }
+
+    a::active {
+        text-decoration: underline;
+    }
+
+    .image-wrapper {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    img {
+
+        max-width: 350px;
+        height: auto;
+        margin: 64px;
+        background-size: cover;
+        border-radius: 50%;
+        content: url("../images/maskprofilepictureround.png")
+            /* background-image: url(../images/maskprofilepictureround.png); */
+
+    }
+
+    #hi {
+        height: 30px;
+        font-family: Georgia;
+        line-height: 30px;
+        font-size: 26.34px;
+        text-align: center;
+
+        color: #2D3137;
+    }
+
+    .brand {
+        margin: 16px 0 16px 0;
+        font-family: Lato;
+        line-height: 28px;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: rgba(45, 49, 55, 0.54);
+    }
+
+    #my-work {
+        margin: 25px;
+        padding: 8px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 16px;
+        font-size: 14.21px;
+        text-align: center;
+        letter-spacing: 1.25px;
+        color: #FFFFFF;
+        border-radius: 4px;
+        background: #2D3137;
+    }
+
+    i {
+        margin-top: 36px;
+        width: 18%;
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width: 590px) {
+    nav {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .image-wrapper {
+        clear: both;
+    }
+
+    img {
+        float: left;
+        /* width: 50%; */
+        max-height: 338px;
+        width: auto;
+        padding: 0;
+        background-size: cover;
+        border-radius: 0;
+        margin: 8px;
+        content: url("../images/maskprofilepicture.jpg")
+            /* background-image: url(../images/maskprofilepictureround.png); */
+    }
+
+    *p {
+        float: right;
+    }
+
+    #hi {
+        padding: 10px;
+        margin: 34px 0;
+        height: 30px;
+        font-family: Georgia;
+        line-height: 30px;
+        font-size: 26.34px;
+        text-align: center;
+        color: #2D3137;
+    }
+
+    #brand {
+        padding: 8px;
+    }
+
+    #btn-div {
+        display: block;
+    }
+
+    #my-work {
+
+        padding: 10px 26px;
+    }
+
+    #skills {
+        display: block;
+    }
+
+    i {
+        margin-top: 36px;
+        width: 18%;
+    }
+
+
+}
+
+@media screen and (min-width: 790px) {
+    html {
+        margin: 0;
+        padding: 0;
+
+    }
+    #main-container {
+        min-width: 1190px;
+        max-width:1225px
+    }
+
+    nav {
+        float: right;
+        width: 50%;
+        padding: 0;
+    }
+    .image-wrapper{
+        overflow:auto;
+        width:100%;
+    }
+  
+    img {
+        position: fixed;
+        top: 0;
+        left:0;
+        min-height: 100vh;
+        margin: 0;
+        content: url("../images/maskprofilepicture.jpg");
+        padding: 0;
+        width:50%;
+        min-width: 600px;
+        padding: 0;
+        background-size: cover;
+        border-radius: 0;
+
+    }
+
+    #brand-wrapper {
+        float: right;
+        width: 50%;
+        text-align: left;
+
+    }
+    #container {
+        width: 600px;
+        float:right;
+    }
+    
+    #hi {
+        height: 30px;
+        font-family: Georgia;
+        line-height: 30px;
+        font-size: 26.34px;
+        text-align: center;
+        color: #2D3137;
+        margin-bottom: 0;
+    }
+
+    .brand {
+        clear:right;
+        float: right;
+        margin: 24px;
+        font-family: Lato;
+        line-height: 28px;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: rgba(45, 49, 55, 0.54);
+    }
+    #container > p:nth-child(2){
+        margin-bottom: 0;
+    }
+    .section {
+        clear:right;
+        float:right;
+        width:50%
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    html {
+        margin: 0;
+        padding: 0;
+
+    }
+    #main-container {
+        min-width: 1190px;
+        max-width:1225px
+    }
+
+    nav {
+        float: right;
+        width: 50%;
+        padding: 0;
+        margin-right:-5%;
+    }
+    .image-wrapper{
+        overflow:auto;
+        width:100%;
+    }
+  
+    img {
+        position: fixed;
+        top: 0;
+        left:0;
+        min-height: 100vh;
+        margin: 0;
+        content: url("../images/maskprofilepicture.jpg");
+        padding: 0;
+        width:50%;
+        min-width: 600px;
+        padding: 0;
+        background-size: cover;
+        border-radius: 0;
+
+    }
+
+    #brand-wrapper {
+        float: right;
+        width: 50%;
+        text-align: left;
+
+    }
+    #container {
+        width: 600px;
+        float:right;
+        margin-right:-6%;
+        margin-top:5%;
+    }
+    
+    #hi {
+        height: 30px;
+        font-family: Georgia;
+        line-height: 30px;
+        font-size: 26.34px;
+        text-align: center;
+        color: #2D3137;
+        margin-bottom: 0;
+    }
+
+    .brand {
+        clear:right;
+        float: right;
+        margin: 24px;
+        font-family: Lato;
+        line-height: 28px;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: rgba(45, 49, 55, 0.54);
+    }
+    #container > p:nth-child(2){
+        margin-bottom: 0;
+    }
+    .section {
+        clear:right;
+        float:right;
+        width:50%;
+        margin-right:-6%;
+    }
+}
