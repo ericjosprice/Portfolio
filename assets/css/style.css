@@ -19,10 +19,11 @@
     }
     a{
         color: #2D3137;
+        text-decoration: none;
 
     }
 
-    a::active {
+    a:active {
         text-decoration: underline;
         color: black;
 
@@ -111,7 +112,7 @@
         color: #2D3137;
     }
 
-    a::active {
+    a:active {
         text-decoration: underline;
     }
 
