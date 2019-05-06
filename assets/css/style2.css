@@ -194,11 +194,7 @@ br:nth-of-type(even) {
     display:block;
     content:"";
 }
-div.row {
-    display:block;
-    content:"";
 
-}
 
 
 /* portfolio css starts here */
@@ -348,6 +344,9 @@ Make the position of the header static (the default positioning) when the screen
     }
     #navButtons{
         width:100%;
+    }
+    .pics img {
+        height:auto
     }
     .pics {
         width:100%;
