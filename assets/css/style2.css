@@ -123,7 +123,7 @@ div.pics{
     text-align: center;
     margin-bottom: 50px;
 }
-#name, #email, #textarea {
+/* #name, #email, #textarea {
     margin: 0;
     border: 0;
     padding: 0;
@@ -135,7 +135,7 @@ div.pics{
     padding: 8px;
     border: 1px solid rgba(0,0,0,.12);
     margin-top: 12px;
-}
+} */
 
 
 h2 {
@@ -168,8 +168,18 @@ footer h5 {
 
 input,
 textarea {
-    width:100%;
-    border:2px solid lightgray;
+      margin: 0;
+    border: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    background: none;
+    line-height: 1;
+    padding: 8px;
+    border: 1px solid rgba(0,0,0,.12);
+    margin-top: 12px;
+    width: 100%;
 }
 
 button {
