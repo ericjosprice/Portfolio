@@ -8,7 +8,7 @@
         width: 33%;
         height: 16px;
         margin-top: 24px;
-        font-family: Lato;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: normal;
         font-weight: normal;
         line-height: 16px;
@@ -23,11 +23,7 @@
 
     }
 
-    a:active {
-        text-decoration: underline;
-        color: black;
 
-    }
 
     .image-wrapper {
         margin: 0 auto;
@@ -42,8 +38,8 @@
         background-size: cover;
         top: 127.97px;
         border-radius: 50%;
-        content: url("../images/maskprofilepictureround.png")
-            /* background-image: url(../images/maskprofilepictureround.png); */
+        content: url("../images/githubprofileround.png")
+        /* content: url("../images/maskprofilepictureround.png") */
 
     }
 
@@ -58,7 +54,7 @@
 
     .brand {
         margin: 16px 0 16px 0;
-        font-family: Lato;
+        font-family: Georgia, Lato;
         line-height: 28px;
         font-size: 20px;
         text-align: center;
@@ -105,11 +101,11 @@
         height: 16px;
         top: 36px;
         margin-top: 24px;
-        font-family: Lato;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: normal;
         font-weight: normal;
-        line-height: 16px;
-        font-size: 12.58px;
+        line-height: 18px;
+        font-size: 14.58px;
         text-align: center;
         letter-spacing: 0.4px;
         color: #2D3137;
@@ -131,7 +127,7 @@
         margin: 64px;
         background-size: cover;
         border-radius: 50%;
-        content: url("../images/maskprofilepictureround.png")
+        content: url("../images/githubprofileround.png")
             /* background-image: url(../images/maskprofilepictureround.png); */
 
     }
@@ -199,7 +195,7 @@
         background-size: cover;
         border-radius: 0;
         margin: 8px;
-        content: url("../images/maskprofilepicture.jpg")
+        content: url("../images/githubprofile.png")
             /* background-image: url(../images/maskprofilepictureround.png); */
     }
 
@@ -258,6 +254,7 @@
         float: right;
         width: 50%;
         padding: 0;
+        margin-top: 1%;
     }
     .image-wrapper{
         overflow:auto;
@@ -270,7 +267,10 @@
         left:0;
         min-height: 100vh;
         margin: 0;
-        content: url("../images/maskprofilepicture.jpg");
+        content: url("../images/talltie.png");
+        /* image-orientation: none; */
+        image-orientation: from-image;
+        /* transform:          rotate(90deg); */
         padding: 0;
         width:50%;
         min-width: 600px;
@@ -289,6 +289,7 @@
     #container {
         width: 600px;
         float:right;
+        margin-top: 2%;
     }
     
     #hi {
@@ -299,6 +300,7 @@
         text-align: center;
         color: #2D3137;
         margin-bottom: 0;
+
     }
 
     .brand {
@@ -318,7 +320,8 @@
     .section {
         clear:right;
         float:right;
-        width:50%
+        width:50%;
+        margin-top: 4%;
     }
 }
 
@@ -338,6 +341,7 @@
         width: 50%;
         padding: 0;
         margin-right:-5%;
+        margin-top: 1.5%
     }
     .image-wrapper{
         overflow:auto;
@@ -350,7 +354,7 @@
         left:0;
         min-height: 100vh;
         margin: 0;
-        content: url("../images/maskprofilepicture.jpg");
+        content: url("../images/talltie.png");
         padding: 0;
         width:50%;
         min-width: 600px;
@@ -362,7 +366,7 @@
 
     #brand-wrapper {
         float: right;
-        width: 50%;
+        width: 75%;
         text-align: left;
 
     }
@@ -402,5 +406,6 @@
         float:right;
         width:50%;
         margin-right:-6%;
+        margin-top:1%;
     }
 }
