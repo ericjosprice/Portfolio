@@ -13,7 +13,7 @@ html, body {
 /* end sticky footer */
 body{
    /* background-image: url(../images/white-waves.png); */
-   font-family: Georgia, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+   font-family: 'Lato', Georgia, Arial, 'Helvetica Neue', Helvetica, sans-serif;
    color:#777777;
 }
 
@@ -123,6 +123,7 @@ div.pics{
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
     max-width: 600px;
     margin: 5px;
+    padding-bottom: 16px;
     
 }
 #personal{

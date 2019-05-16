@@ -1,3 +1,6 @@
+body{
+    font-family: 'Lato';
+}
 @media screen and (min-width: 0px) {
     body {
         text-align: center;
@@ -8,7 +11,7 @@
         width: 33%;
         height: 16px;
         margin-top: 24px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: 'Lato', Georgia, 'Times New Roman', Times, serif;
         font-style: normal;
         font-weight: normal;
         line-height: 16px;
@@ -45,7 +48,7 @@
 
     #hi {
         height: 30px;
-        font-family: Georgia;
+        font-family: 'Lato', Georgia;
         line-height: 30px;
         font-size: 26.34px;
         text-align: center;
@@ -54,7 +57,7 @@
 
     .brand {
         margin: 16px 0 16px 0;
-        font-family: Georgia, Lato;
+        font-family: Georgia;
         line-height: 28px;
         font-size: 20px;
         text-align: center;
@@ -101,7 +104,7 @@
         height: 16px;
         top: 36px;
         margin-top: 24px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: 'Lato', Georgia, 'Times New Roman', Times, serif;
         font-style: normal;
         font-weight: normal;
         line-height: 18px;
