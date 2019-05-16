@@ -110,7 +110,7 @@ section {
 #contact {
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
     padding: 24px;
-    max-width: 600px;
+    width:800px;
     margin: 0 auto;
 }
 div.pics{
