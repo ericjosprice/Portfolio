@@ -110,8 +110,14 @@ section {
 #contact {
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
     padding: 24px;
-    width:800px;
+    min-width: 360px;
     margin: 0 auto;
+    height: 550px;
+}
+#resume {
+   
+    min-width: 350px;
+    height: 540px;
 }
 div.pics{
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
@@ -235,6 +241,20 @@ contact.html: 980px, 768px, 640px
 
 Make the position of the header static (the default positioning) when the screen is 640px wide. The header design takes up a lot of room; you don't want it to stick to the top of a small screen and leave no room for the rest of your site. */
 
+@media screen and (max-width:2000px){
+    #resume {
+        width:100%;
+        max-width: 790px;
+        margin: auto;
+        height: 100%;
+    }
+    #contact {
+        height:100vh;
+        max-width: 800px;
+    }
+
+}
+
 @media screen and (max-width:980px){
     nav{
         overflow:auto;
@@ -260,6 +280,15 @@ Make the position of the header static (the default positioning) when the screen
     }
     #dexPic {
         width:35%;
+    }
+    #resume {
+        width:100%;
+        max-width: 790px;
+        margin: auto;
+        height: 100%;
+    }
+    #contact {
+        height:100vh;
     }
 
     
@@ -299,6 +328,17 @@ Make the position of the header static (the default positioning) when the screen
     }
     #dexPic {
         width:35%;
+
+        
+    }
+    #resume {
+        width:100%;
+        max-width: 790px;
+        margin: auto;
+        height: 100%;
+    }
+    #contact {
+        height:100vh;
     }
 }
 /* @media screen and (max-width:640px){
@@ -388,6 +428,13 @@ Make the position of the header static (the default positioning) when the screen
     .text{
         width:100%;
     }
+
+    #resume {
+        width:100%;
+        max-width: 790px;
+        margin: auto;
+    }
+
 }
 
 
