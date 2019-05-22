@@ -175,7 +175,7 @@ footer h5 {
 
 input,
 textarea {
-      margin: 0;
+    margin: 0;
     border: 0;
     padding: 0;
     display: inline-block;
@@ -225,6 +225,29 @@ br:nth-of-type(even) {
     height:20px;
     padding:5px 0;
 }
+
+
+.project-wrapper .img-wrapper {
+    position: relative;
+}
+
+  .project-wrapper .project-description {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      bottom: 95px;
+      left: 10px;
+      background: rgba(0, 0, 0, 0.8);
+      color:white;
+      padding: 5px;
+      text-align: center;
+      transform: scaleY(0);
+    
+  }
+  .project-wrapper:hover .project-description{
+      transform: scale(1);
+      transition: .05s;
+  }
 
 #col{
     width:auto;
