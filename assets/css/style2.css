@@ -240,7 +240,6 @@ br:nth-of-type(even) {
       background: rgba(0, 0, 0, 0.8);
       color:white;
       padding: 5px;
-      text-align: center;
       transform: scaleY(0);
     
   }
