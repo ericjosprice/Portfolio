@@ -410,6 +410,9 @@ body{
         margin-right:-5%;
         margin-top: 1.5%
     }
+
+
+
     .image-wrapper{
         overflow:auto;
         width:100%;
@@ -478,7 +481,7 @@ body{
 }
 
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1480px) {
     html {
         margin: 0;
         padding: 0;
@@ -495,6 +498,21 @@ body{
         padding: 0;
         margin-right:-14%;
         margin-top: 1.5%
+    }
+
+    h3 {
+        float: left;
+        width: 33%;
+        height: 20px;
+        margin-top: 24px;
+        font-family: 'Lato', Georgia, 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 20px;
+        font-size: 16.58px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: #2D3137;
     }
     .image-wrapper{
         overflow:auto;
