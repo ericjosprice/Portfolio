@@ -88,9 +88,10 @@ body{
     #resume {
         margin:10px auto
     }
-    #skills {
+    .skills {
         margin-bottom: 24px;
     }
+
 }
 
 @media screen and (min-width: 479px) {
@@ -360,7 +361,7 @@ body{
         content: url("../images/talltie.png");
         padding: 0;
         width:50%;
-        min-width: 600px;
+        min-width: 610px;
         padding: 0;
         background-size: cover;
         border-radius: 0;
@@ -410,5 +411,91 @@ body{
         width:50%;
         margin-right:-6%;
         margin-top:1%;
+    }
+}
+
+
+@media screen and (min-width: 1800px) {
+    html {
+        margin: 0;
+        padding: 0;
+
+    }
+    #main-container {
+        min-width: 1190px;
+        max-width:1225px
+    }
+
+    nav {
+        float: right;
+        width: 50%;
+        padding: 0;
+        margin-right:-40%;
+        margin-top: 4%
+    }
+    .image-wrapper{
+        overflow:auto;
+        width:100%;
+    }
+  
+    img {
+        position: fixed;
+        top: 0;
+        left:0;
+        min-height: 100vh;
+        margin: 0;
+        content: url("../images/talltie.png");
+        padding: 0;
+        width:50%;
+        min-width: 720px;
+        padding: 0;
+        background-size: cover;
+        border-radius: 0;
+
+    }
+
+    #brand-wrapper {
+        float: right;
+        width: 75%;
+        text-align: left;
+
+    }
+    #container {
+        width: 600px;
+        float:right;
+        margin-right:-54%;
+        margin-top:10%;
+    }
+    
+    #hi {
+        height: 30px;
+        font-family: Georgia;
+        line-height: 30px;
+        font-size: 26.34px;
+        text-align: center;
+        color: #2D3137;
+        margin-bottom: 0;
+    }
+
+    .brand {
+        clear:right;
+        float: right;
+        margin: 24px;
+        font-family: Lato;
+        line-height: 32px;
+        font-size: 22px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: rgba(45, 49, 55, 0.54);
+    }
+    #container > p:nth-child(2){
+        margin-bottom: 0;
+    }
+    .section {
+        clear:right;
+        float:right;
+        width:50%;
+        margin-right:-40%;
+        margin-top:6%;
     }
 }
